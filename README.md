@@ -8,6 +8,13 @@ Slightly different [RiotJS](https://github.com/riot/riot) startkit, based on [Ri
 
 Package included simple app example, webpack dev server with **riot hot reload** and less, sass, stylus support. ES6 features available too. Jest with riot support for testing. ES6 and eslint in riot tag.
 
+To deploy, add your AWS credentials to a .gitignored config.json file, and run
+```
+npm run-script deploy
+```
+
+Check out the scripts/deploy.js file for options
+
 Just read https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md but replace all "react" word to "riot" :)
 
 [![See the video](https://j.gifs.com/VmEVBB.gif)](https://www.youtube.com/watch?v=dU2TsHzQA60)
