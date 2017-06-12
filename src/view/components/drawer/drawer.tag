@@ -67,7 +67,7 @@ import Swipe from './swipe'
 				<a  if={user_info}
 					class="user-info"
 					target="_blank" rel="noopener"
-					href="https://vk.com/id{user_info.id}">
+					href="/user/{user_info.id}">
 					<figure class="avatar" style="background-image:url({user_info.photo_url})"></figure>
 					<em class="name">
 						{user_info.first_name}

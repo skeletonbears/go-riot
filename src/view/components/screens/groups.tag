@@ -34,7 +34,7 @@
 		<div if={!loading && !groups.length}>
 			<div class="no-groups">
 				No content...<br><br>
-				<a href="https://vk.com/groups" target="_blank" rel="noopener">Create</a>
+				<a href="/groups" target="_blank" rel="noopener">Create</a>
 			</div>
 		</div>
 	</div>
