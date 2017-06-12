@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/npm.svg)]()
 [![Dependencies](https://david-dm.org/alexstep/create-riot-app-ejected/dev-status.svg)](https://david-dm.org/alexstep/create-riot-app-ejected?type=dev)
 
-[RiotJS](https://github.com/riot/riot) startkit, based on [create-react-app](https://github.com/facebookincubator/create-react-app) and  [react-scripts](https://github.com/facebookincubator/create-react-app/tree/master/packages/react-scripts).
+Slightly different [RiotJS](https://github.com/riot/riot) startkit, based on [RiotJS](https://github.com/riot/riot) startkit, based on [create-react-app](https://github.com/facebookincubator/create-react-app) and  [react-scripts](https://github.com/facebookincubator/create-react-app/tree/master/packages/react-scripts).
 
 
 Package included simple app example, webpack dev server with **riot hot reload** and less, sass, stylus support. ES6 features available too. Jest with riot support for testing. ES6 and eslint in riot tag.
@@ -86,5 +86,3 @@ The generated project comes with LESS support by default, but you can add SASS o
 ## ☺ Contribute
 
 Fork and send pull-request. Thank you!
-
-
