@@ -3,7 +3,7 @@
  * mount tags
  */
 
-// Enable HMR in dev mode
+// Enable Hot Module Reloading™ in dev mode
 if (process.env.NODE_ENV=='development') {
 	require('riot-hot-reload')
 }
@@ -29,6 +29,7 @@ export default class View {
 		// enable router
 		this.routing()
 
+		// @TODO: does this work? Do we need it?
 		// Init sounds
 		this.sound = require('./sounds.js')({sounds_path:'/sounds/'})
 
@@ -53,6 +54,7 @@ export default class View {
 		route.start(true)
 	}
 
+	//@TODO: necessary?
 	isFontAvaible(font){
 		let width
 		let body = document.body
@@ -126,5 +128,3 @@ export default class View {
 		},500)
 	}
 }
-
-

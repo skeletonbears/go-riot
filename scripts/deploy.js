@@ -53,5 +53,5 @@ function deploy(bucketName, rootFolder){
     }
   });
 }
-
+//@TODO: add these to config
 deploy("kingsofleon","build")
